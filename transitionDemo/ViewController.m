@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TwoViewController.h"
+#import "ThreeViewController.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,12 @@
     TwoViewController *vc2 = [TwoViewController new];
     [self presentViewController:vc2 animated:YES completion:nil];
 }
+
+- (IBAction)showThreeVC:(id)sender {
+    ThreeViewController *vc3 = [ThreeViewController new];
+    [self presentViewController:vc3 animated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

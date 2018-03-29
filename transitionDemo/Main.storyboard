@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2J-cs-Oxe">
-                                <rect key="frame" x="167.5" y="587" width="40" height="40"/>
+                                <rect key="frame" x="168" y="587" width="40" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.33333333329999998" blue="0.2666666667" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="UBv-jh-IXT"/>
@@ -37,11 +37,20 @@
                                     <action selector="showVC2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0c-cp-wOn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uE-ce-GfH">
+                                <rect key="frame" x="149.5" y="519" width="75" height="30"/>
+                                <state key="normal" title="showThree"/>
+                                <connections>
+                                    <action selector="showThreeVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Rb-AF-DQx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b2J-cs-Oxe" secondAttribute="bottom" constant="40" id="CjC-7E-fcT"/>
                             <constraint firstItem="b2J-cs-Oxe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ita-SC-UR7"/>
+                            <constraint firstItem="2uE-ce-GfH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="499" id="S9H-qE-eFE"/>
+                            <constraint firstItem="2uE-ce-GfH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2a-X5-o5h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

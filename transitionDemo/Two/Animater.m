@@ -8,7 +8,7 @@
 
 #import "Animater.h"
 
-@interface Animater()<CAAnimationDelegate>
+@interface Animater()
 @property (assign,nonatomic)BOOL isPresentAnimater;
 @end
 

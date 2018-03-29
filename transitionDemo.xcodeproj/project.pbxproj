@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32096972206CCB7000D797D6 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32096970206CCB7000D797D6 /* ThreeViewController.m */; };
+		32096973206CCB7000D797D6 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32096971206CCB7000D797D6 /* ThreeViewController.xib */; };
+		32096978206CCCE600D797D6 /* Animater3.m in Sources */ = {isa = PBXBuildFile; fileRef = 32096977206CCCE600D797D6 /* Animater3.m */; };
 		327AF6F5206B940200A95FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AF6F4206B940200A95FC5 /* AppDelegate.m */; };
 		327AF6F8206B940300A95FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AF6F7206B940200A95FC5 /* ViewController.m */; };
 		327AF6FD206B940300A95FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327AF6FC206B940300A95FC5 /* Assets.xcassets */; };
@@ -19,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3209696F206CCB7000D797D6 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		32096970206CCB7000D797D6 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		32096971206CCB7000D797D6 /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		32096976206CCCE600D797D6 /* Animater3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animater3.h; sourceTree = "<group>"; };
+		32096977206CCCE600D797D6 /* Animater3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animater3.m; sourceTree = "<group>"; };
 		327AF6F0206B940200A95FC5 /* transitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327AF6F3206B940200A95FC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		327AF6F4206B940200A95FC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,7 +41,7 @@
 		327AF70B206B94BC00A95FC5 /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
 		327AF70E206B978100A95FC5 /* Animater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animater.h; sourceTree = "<group>"; };
 		327AF70F206B978100A95FC5 /* Animater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animater.m; sourceTree = "<group>"; };
-		327AF711206BB45400A95FC5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = transitionDemo/Main.storyboard; sourceTree = "<group>"; };
+		327AF711206BB45400A95FC5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +55,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32096974206CCBF400D797D6 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				3209696F206CCB7000D797D6 /* ThreeViewController.h */,
+				32096970206CCB7000D797D6 /* ThreeViewController.m */,
+				32096971206CCB7000D797D6 /* ThreeViewController.xib */,
+				32096976206CCCE600D797D6 /* Animater3.h */,
+				32096977206CCCE600D797D6 /* Animater3.m */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		32096975206CCBF800D797D6 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				327AF709206B94BC00A95FC5 /* TwoViewController.h */,
+				327AF70A206B94BC00A95FC5 /* TwoViewController.m */,
+				327AF70B206B94BC00A95FC5 /* TwoViewController.xib */,
+				327AF70E206B978100A95FC5 /* Animater.h */,
+				327AF70F206B978100A95FC5 /* Animater.m */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
 		327AF6E7206B940200A95FC5 = {
 			isa = PBXGroup;
 			children = (
-				327AF711206BB45400A95FC5 /* Main.storyboard */,
 				327AF6F2206B940200A95FC5 /* transitionDemo */,
 				327AF6F1206B940200A95FC5 /* Products */,
 			);
@@ -67,6 +98,9 @@
 		327AF6F2206B940200A95FC5 /* transitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32096975206CCBF800D797D6 /* Two */,
+				32096974206CCBF400D797D6 /* Three */,
+				327AF711206BB45400A95FC5 /* Main.storyboard */,
 				327AF6F3206B940200A95FC5 /* AppDelegate.h */,
 				327AF6F4206B940200A95FC5 /* AppDelegate.m */,
 				327AF6F6206B940200A95FC5 /* ViewController.h */,
@@ -75,11 +109,6 @@
 				327AF6FE206B940300A95FC5 /* LaunchScreen.storyboard */,
 				327AF701206B940300A95FC5 /* Info.plist */,
 				327AF702206B940300A95FC5 /* main.m */,
-				327AF709206B94BC00A95FC5 /* TwoViewController.h */,
-				327AF70A206B94BC00A95FC5 /* TwoViewController.m */,
-				327AF70B206B94BC00A95FC5 /* TwoViewController.xib */,
-				327AF70E206B978100A95FC5 /* Animater.h */,
-				327AF70F206B978100A95FC5 /* Animater.m */,
 			);
 			path = transitionDemo;
 			sourceTree = "<group>";
@@ -145,6 +174,7 @@
 				327AF700206B940300A95FC5 /* LaunchScreen.storyboard in Resources */,
 				327AF6FD206B940300A95FC5 /* Assets.xcassets in Resources */,
 				327AF70D206B94BC00A95FC5 /* TwoViewController.xib in Resources */,
+				32096973206CCB7000D797D6 /* ThreeViewController.xib in Resources */,
 				327AF712206BB45400A95FC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,8 +189,10 @@
 				327AF710206B978100A95FC5 /* Animater.m in Sources */,
 				327AF6F8206B940300A95FC5 /* ViewController.m in Sources */,
 				327AF703206B940300A95FC5 /* main.m in Sources */,
+				32096972206CCB7000D797D6 /* ThreeViewController.m in Sources */,
 				327AF6F5206B940200A95FC5 /* AppDelegate.m in Sources */,
 				327AF70C206B94BC00A95FC5 /* TwoViewController.m in Sources */,
+				32096978206CCCE600D797D6 /* Animater3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
