@@ -6,15 +6,15 @@
 //  Copyright © 2018年 yangaichun. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Item1ViewController.h"
 #import "TwoViewController.h"
 #import "ThreeViewController.h"
 
-@interface ViewController ()
+@interface Item1ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation Item1ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Item1ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *addButton;
 

@@ -10,8 +10,18 @@
 		32096972206CCB7000D797D6 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32096970206CCB7000D797D6 /* ThreeViewController.m */; };
 		32096973206CCB7000D797D6 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32096971206CCB7000D797D6 /* ThreeViewController.xib */; };
 		32096978206CCCE600D797D6 /* Animater3.m in Sources */ = {isa = PBXBuildFile; fileRef = 32096977206CCCE600D797D6 /* Animater3.m */; };
+		321411F6206DD61D0043B39C /* Item2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321411F5206DD61D0043B39C /* Item2ViewController.m */; };
+		321411FB206DD6770043B39C /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321411F9206DD6770043B39C /* PushedViewController.m */; };
+		321411FC206DD6770043B39C /* PushedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321411FA206DD6770043B39C /* PushedViewController.xib */; };
+		321411FF206DD6970043B39C /* NavAnimater.m in Sources */ = {isa = PBXBuildFile; fileRef = 321411FE206DD6970043B39C /* NavAnimater.m */; };
+		32141205206E06440043B39C /* AnimationTabarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32141204206E06440043B39C /* AnimationTabarViewController.m */; };
+		32141209206E06CF0043B39C /* tabbarAnimater.m in Sources */ = {isa = PBXBuildFile; fileRef = 32141208206E06CF0043B39C /* tabbarAnimater.m */; };
+		3214120C206E43310043B39C /* Item3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3214120B206E43310043B39C /* Item3ViewController.m */; };
+		32141210206E49950043B39C /* InteractiveTranViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3214120F206E49950043B39C /* InteractiveTranViewController.m */; };
+		32141213206E4FDA0043B39C /* InteractionAnimater.m in Sources */ = {isa = PBXBuildFile; fileRef = 32141212206E4FDA0043B39C /* InteractionAnimater.m */; };
+		32141217206E57A30043B39C /* InteractiveTranViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32141216206E57A30043B39C /* InteractiveTranViewController.xib */; };
 		327AF6F5206B940200A95FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AF6F4206B940200A95FC5 /* AppDelegate.m */; };
-		327AF6F8206B940300A95FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AF6F7206B940200A95FC5 /* ViewController.m */; };
+		327AF6F8206B940300A95FC5 /* Item1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AF6F7206B940200A95FC5 /* Item1ViewController.m */; };
 		327AF6FD206B940300A95FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327AF6FC206B940300A95FC5 /* Assets.xcassets */; };
 		327AF700206B940300A95FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327AF6FE206B940300A95FC5 /* LaunchScreen.storyboard */; };
 		327AF703206B940300A95FC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 327AF702206B940300A95FC5 /* main.m */; };
@@ -27,11 +37,29 @@
 		32096971206CCB7000D797D6 /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
 		32096976206CCCE600D797D6 /* Animater3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animater3.h; sourceTree = "<group>"; };
 		32096977206CCCE600D797D6 /* Animater3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animater3.m; sourceTree = "<group>"; };
+		321411F4206DD61D0043B39C /* Item2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item2ViewController.h; sourceTree = "<group>"; };
+		321411F5206DD61D0043B39C /* Item2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item2ViewController.m; sourceTree = "<group>"; };
+		321411F8206DD6770043B39C /* PushedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		321411F9206DD6770043B39C /* PushedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
+		321411FA206DD6770043B39C /* PushedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushedViewController.xib; sourceTree = "<group>"; };
+		321411FD206DD6970043B39C /* NavAnimater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavAnimater.h; sourceTree = "<group>"; };
+		321411FE206DD6970043B39C /* NavAnimater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavAnimater.m; sourceTree = "<group>"; };
+		32141203206E06440043B39C /* AnimationTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTabbarViewController.h; sourceTree = "<group>"; };
+		32141204206E06440043B39C /* AnimationTabarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTabarViewController.m; sourceTree = "<group>"; };
+		32141207206E06CF0043B39C /* tabbarAnimater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbarAnimater.h; sourceTree = "<group>"; };
+		32141208206E06CF0043B39C /* tabbarAnimater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbarAnimater.m; sourceTree = "<group>"; };
+		3214120A206E43310043B39C /* Item3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item3ViewController.h; sourceTree = "<group>"; };
+		3214120B206E43310043B39C /* Item3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item3ViewController.m; sourceTree = "<group>"; };
+		3214120E206E49950043B39C /* InteractiveTranViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveTranViewController.h; sourceTree = "<group>"; };
+		3214120F206E49950043B39C /* InteractiveTranViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveTranViewController.m; sourceTree = "<group>"; };
+		32141211206E4FDA0043B39C /* InteractionAnimater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractionAnimater.h; sourceTree = "<group>"; };
+		32141212206E4FDA0043B39C /* InteractionAnimater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionAnimater.m; sourceTree = "<group>"; };
+		32141216206E57A30043B39C /* InteractiveTranViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InteractiveTranViewController.xib; sourceTree = "<group>"; };
 		327AF6F0206B940200A95FC5 /* transitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327AF6F3206B940200A95FC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		327AF6F4206B940200A95FC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		327AF6F6206B940200A95FC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		327AF6F7206B940200A95FC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		327AF6F6206B940200A95FC5 /* Item1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item1ViewController.h; sourceTree = "<group>"; };
+		327AF6F7206B940200A95FC5 /* Item1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item1ViewController.m; sourceTree = "<group>"; };
 		327AF6FC206B940300A95FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		327AF6FF206B940300A95FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		327AF701206B940300A95FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +107,39 @@
 			path = Two;
 			sourceTree = "<group>";
 		};
+		321411F7206DD6580043B39C /* pushed */ = {
+			isa = PBXGroup;
+			children = (
+				321411F8206DD6770043B39C /* PushedViewController.h */,
+				321411F9206DD6770043B39C /* PushedViewController.m */,
+				321411FA206DD6770043B39C /* PushedViewController.xib */,
+				321411FD206DD6970043B39C /* NavAnimater.h */,
+				321411FE206DD6970043B39C /* NavAnimater.m */,
+			);
+			path = pushed;
+			sourceTree = "<group>";
+		};
+		32141206206E06AB0043B39C /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				32141207206E06CF0043B39C /* tabbarAnimater.h */,
+				32141208206E06CF0043B39C /* tabbarAnimater.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		3214120D206E49330043B39C /* InteractiveTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				3214120E206E49950043B39C /* InteractiveTranViewController.h */,
+				3214120F206E49950043B39C /* InteractiveTranViewController.m */,
+				32141211206E4FDA0043B39C /* InteractionAnimater.h */,
+				32141212206E4FDA0043B39C /* InteractionAnimater.m */,
+				32141216206E57A30043B39C /* InteractiveTranViewController.xib */,
+			);
+			path = InteractiveTransitioning;
+			sourceTree = "<group>";
+		};
 		327AF6E7206B940200A95FC5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,13 +159,22 @@
 		327AF6F2206B940200A95FC5 /* transitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3214120D206E49330043B39C /* InteractiveTransitioning */,
+				32141206206E06AB0043B39C /* tabbar */,
+				321411F7206DD6580043B39C /* pushed */,
 				32096975206CCBF800D797D6 /* Two */,
 				32096974206CCBF400D797D6 /* Three */,
 				327AF711206BB45400A95FC5 /* Main.storyboard */,
 				327AF6F3206B940200A95FC5 /* AppDelegate.h */,
 				327AF6F4206B940200A95FC5 /* AppDelegate.m */,
-				327AF6F6206B940200A95FC5 /* ViewController.h */,
-				327AF6F7206B940200A95FC5 /* ViewController.m */,
+				32141203206E06440043B39C /* AnimationTabbarViewController.h */,
+				32141204206E06440043B39C /* AnimationTabarViewController.m */,
+				327AF6F6206B940200A95FC5 /* Item1ViewController.h */,
+				327AF6F7206B940200A95FC5 /* Item1ViewController.m */,
+				321411F4206DD61D0043B39C /* Item2ViewController.h */,
+				321411F5206DD61D0043B39C /* Item2ViewController.m */,
+				3214120A206E43310043B39C /* Item3ViewController.h */,
+				3214120B206E43310043B39C /* Item3ViewController.m */,
 				327AF6FC206B940300A95FC5 /* Assets.xcassets */,
 				327AF6FE206B940300A95FC5 /* LaunchScreen.storyboard */,
 				327AF701206B940300A95FC5 /* Info.plist */,
@@ -172,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				327AF700206B940300A95FC5 /* LaunchScreen.storyboard in Resources */,
+				321411FC206DD6770043B39C /* PushedViewController.xib in Resources */,
 				327AF6FD206B940300A95FC5 /* Assets.xcassets in Resources */,
+				32141217206E57A30043B39C /* InteractiveTranViewController.xib in Resources */,
 				327AF70D206B94BC00A95FC5 /* TwoViewController.xib in Resources */,
 				32096973206CCB7000D797D6 /* ThreeViewController.xib in Resources */,
 				327AF712206BB45400A95FC5 /* Main.storyboard in Resources */,
@@ -186,13 +258,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321411F6206DD61D0043B39C /* Item2ViewController.m in Sources */,
 				327AF710206B978100A95FC5 /* Animater.m in Sources */,
-				327AF6F8206B940300A95FC5 /* ViewController.m in Sources */,
+				327AF6F8206B940300A95FC5 /* Item1ViewController.m in Sources */,
 				327AF703206B940300A95FC5 /* main.m in Sources */,
+				32141209206E06CF0043B39C /* tabbarAnimater.m in Sources */,
 				32096972206CCB7000D797D6 /* ThreeViewController.m in Sources */,
 				327AF6F5206B940200A95FC5 /* AppDelegate.m in Sources */,
+				321411FF206DD6970043B39C /* NavAnimater.m in Sources */,
+				32141210206E49950043B39C /* InteractiveTranViewController.m in Sources */,
 				327AF70C206B94BC00A95FC5 /* TwoViewController.m in Sources */,
 				32096978206CCCE600D797D6 /* Animater3.m in Sources */,
+				321411FB206DD6770043B39C /* PushedViewController.m in Sources */,
+				32141213206E4FDA0043B39C /* InteractionAnimater.m in Sources */,
+				3214120C206E43310043B39C /* Item3ViewController.m in Sources */,
+				32141205206E06440043B39C /* AnimationTabarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
